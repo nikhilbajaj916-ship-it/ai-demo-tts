@@ -1,0 +1,26 @@
+[00:00 – 00:20] Opening — The Problem
+"Every day, financial institutions move trillions of dollars across dozens of payment rails — SWIFT, ACH, RTGS, SEPA. Each has different costs, speeds, and risk profiles. Today, treasury teams rely on spreadsheets and static rule books to route payments. That's slow, inconsistent, and doesn't scale. On a single transaction, choosing the wrong rail can waste thousands of dollars."
+---
+
+[00:20 – 01:00] The Solution — Payment Orchestrator
+"Meet the ZenLabs Payment Orchestration Platform — an agentic AI system that analyzes every payment in milliseconds, scores all available rails, applies compliance rules, and automatically selects the optimal route. We support four regions — US, UK, South Africa, and Europe — each with its own regulatory environment and payment ecosystem. The platform is deployed on Azure Container Apps, running live and handling real transactions in production."
+---
+
+[01:00 – 01:40] Platform Overview & Rails
+"Our console displays available payment rails for each region — showing speed score, cost efficiency, reliability, processing time, and per-transaction cost. In the US, we support ACH, Wire Transfer, Real-Time Payments, SWIFT International, and Remittance. Each region has its own rail configuration. For example, the UK includes Faster Payments, BACS, and CHAPS. South Africa has PayShap Instant for real-time domestic payments. The platform scores these dynamically against the specific payment — amount, currency, corridor, deadline."
+---
+
+[01:40 – 02:30] Live Orchestration Workflow
+"Let's walk through a real payment. We set up a fifty-thousand-dollar transaction from account ACC-001 to ACC-002 on the US to UK corridor. When we hit Orchestrate Payment, the agent workflow activates with four steps. First, Analyze — validates the request and checks all constraints. Second, Score Rails — fetches eligible rails and filters ineligible ones. Third, Select — picks the highest composite score. Fourth, Execute — submits the payment and returns a transaction ID. The entire workflow completes in under five hundred milliseconds. ACH wins at 80.9 — cost-optimized for this amount and corridor. By choosing ACH, we save fourteen dollars and fifty cents compared to Wire Transfer, with full audit trail logging every decision step."
+---
+
+[02:30 – 03:20] Agent Intelligence & Technology
+"Under the hood, this is a LangGraph StateGraph — a directed acyclic graph of AI agents, each with a specific role. The scoring formula weights three dimensions — cost at thirty percent, speed at forty percent, and reliability at thirty percent. That weighting reflects industry priorities — speed matters most, but cost and reliability balance it. Every agent step emits structured logs with session ID and contextual data, feeding directly into Azure Monitor for production observability. The system is built on FastAPI and Python, running on Azure Container Apps with zero-infrastructure management and auto-scaling. Images are stored in Azure Container Registry, deployments are revision-based with zero-downtime capability."
+---
+
+[03:20 – 03:40] Extensibility & Scale
+"Adding a new payment rail is simple — one entry to the regional rails configuration and one line to the rail type map. The AI picks it up automatically on the next call. The same architecture extends to FX optimization, liquidity management, settlement netting, and real-time compliance screening — all as new LangGraph agent nodes."
+---
+
+[03:40 – 04:00] Closing — Call to Action
+"What you've seen is AI-driven payment orchestration running in production, making better routing decisions than any static rule book in under five hundred milliseconds. This is not a future concept — it's working today. The question isn't whether to build this. It's how fast you want to get there. Let's talk."
