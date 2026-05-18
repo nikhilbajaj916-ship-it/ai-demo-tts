@@ -12,7 +12,6 @@ voice_demos/
 music/
 
 # Logs
-raw.txt
 
 # Python cache
 __pycache__/
