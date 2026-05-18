@@ -1,0 +1,77 @@
+00:00:00 --> 00:00:06
+Welcome to the Intelligent Document Processing Platform, by ZenLabs AI Foundry.
+
+00:00:07 --> 00:00:19
+Every enterprise runs on documents, contracts, claims, invoices, policies, and regulatory filings, across banking, insurance, healthcare, legal, and supply chain.
+
+00:00:20 --> 00:00:28
+Processed manually, this work is slow, expensive, and error-prone. IDP changes that entirely.
+
+00:00:30 --> 00:00:44
+One end-to-end pipeline, ingest any document, extract every field with a confidence score, validate against your enterprise standards, and route exceptions to a human-in-the-loop workbench.
+
+00:00:45 --> 00:00:55
+The dashboard is your command center, eight live KPIs, a real-time pipeline breakdown, and quick-access cards for every document type you process.
+
+00:00:57 --> 00:00:58
+Stage one, ingestion.
+
+00:00:59 --> 00:01:07
+Documents arrive via portal, FTP, email, or API, PDF, scanned, TIFF, Word, or XML, up to 50 megabytes.
+
+00:01:08 --> 00:01:12
+The moment a document lands, the AI pipeline triggers automatically.
+
+00:01:13 --> 00:01:21
+The inbox lets you search by party, filter by status, and check each document's readability score for OCR quality.
+
+00:01:22 --> 00:01:27
+Stage two, extraction. Every document flows through six automated steps.
+
+00:01:28 --> 00:01:45
+OCR converts it to structured text. NLP identifies structure. Classification determines document type and status. The large language model then extracts every material field, a clause, a claim line, an invoice item, or a regulatory data point.
+
+00:01:46 --> 00:01:57
+Stage three, validation against enterprise standards. Each value is checked against your playbook, policies, master data, and business rules.
+
+00:01:58 --> 00:02:05
+A field-level confidence score and final document score determine whether it clears automatically or routes for review.
+
+00:02:07 --> 00:02:09
+Stage four, human-in-the-loop review.
+
+00:02:10 --> 00:02:24
+The Workbench surfaces only the fields that fell below threshold, alongside the exact source text. Analysts confirm, override, or reject, and every decision feeds back into the model. Accuracy compounds over time.
+
+00:02:25 --> 00:02:28
+The pipeline refreshes every four seconds.
+
+00:02:30 --> 00:02:37
+This same pipeline powers use cases across every industry. Let us walk through one in depth, capital markets.
+
+00:02:39 --> 00:02:53
+Capital Markets teams process thousands of ISDA master agreements, credit support annexes, trade confirmations, and KYC bundles every year, each requiring precise extraction of elections and risk parameters.
+
+00:02:54 --> 00:02:59
+The ISDA module has four tabs, Upload, Extraction, Review, and Deviations.
+
+00:03:00 --> 00:03:11
+On Extraction, elections from the schedule are grouped by Category, Termination, Tax, and Miscellaneous, each showing extracted value, source text, location, and confidence score.
+
+00:03:13 --> 00:03:21
+The Review Workbench routes low-confidence fields to analysts beside the exact source clause, human attention only where it is needed.
+
+00:03:23 --> 00:03:39
+The Deviations tab compares every election against your firm's standard positions, showing what agrees, what falls within tolerance, and what needs escalation, with approval workflows for legal, treasury, and credit risk. Export the full report as CSV.
+
+00:03:40 --> 00:03:47
+That is the full end-to-end workflow, ingestion, extraction, validation, and review, where it matters.
+
+00:03:48 --> 00:03:52
+One pipeline, every industry, purpose-built modules for the documents that matter most.
+
+00:03:53 --> 00:03:57
+Faster processing, higher accuracy, complete auditability.
+
+00:03:58 --> 00:04:04
+This is ZenLabs AI Foundry. Intelligent Automation for Enterprise Operations.

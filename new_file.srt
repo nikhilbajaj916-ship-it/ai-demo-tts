@@ -1,0 +1,248 @@
+00:00:00,240 --> 00:00:03,000
+Welcome to the Intelligent Document
+ 
+00:00:03,000 --> 00:00:06,000
+Processing Platform, by ZenLabs AI Foundry.
+ 
+00:00:07,000 --> 00:00:10,000
+Every enterprise runs on documents,
+ 
+00:00:10,000 --> 00:00:13,500
+contracts, claims, invoices, policies,
+ 
+00:00:13,500 --> 00:00:16,500
+and regulatory filings, across banking,
+ 
+00:00:16,500 --> 00:00:19,500
+insurance, healthcare, legal, and supply chain.
+ 
+00:00:20,500 --> 00:00:23,500
+Processed manually, this work is slow,
+ 
+00:00:23,500 --> 00:00:26,000
+expensive, and error-prone.
+ 
+00:00:26,500 --> 00:00:28,500
+IDP changes that entirely.
+ 
+00:00:30,000 --> 00:00:32,500
+One end-to-end pipeline, ingest any
+ 
+00:00:32,500 --> 00:00:35,500
+document, extract every field with a
+ 
+00:00:35,500 --> 00:00:38,500
+confidence score, validate against your
+ 
+00:00:38,500 --> 00:00:41,500
+enterprise standards, and route exceptions
+ 
+00:00:41,500 --> 00:00:44,000
+to a human-in-the-loop workbench.
+ 
+00:00:45,500 --> 00:00:48,000
+The dashboard is your command center,
+ 
+00:00:48,000 --> 00:00:51,000
+eight live KPIs, a real-time pipeline
+ 
+00:00:51,000 --> 00:00:53,500
+breakdown, and quick-access cards for
+ 
+00:00:53,500 --> 00:00:55,500
+every document type you process.
+ 
+00:00:57,000 --> 00:00:58,500
+Stage one, ingestion.
+ 
+00:00:59,500 --> 00:01:02,500
+Documents arrive via portal, FTP, email,
+ 
+00:01:02,500 --> 00:01:05,500
+or API, PDF, scanned, TIFF, Word, or XML,
+ 
+00:01:05,500 --> 00:01:07,000
+up to 50 megabytes.
+ 
+00:01:08,000 --> 00:01:10,500
+The moment a document lands, the AI
+ 
+00:01:10,500 --> 00:01:12,000
+pipeline triggers automatically.
+ 
+00:01:13,000 --> 00:01:15,500
+The inbox lets you search by party,
+ 
+00:01:15,500 --> 00:01:18,500
+filter by status, and check each
+ 
+00:01:18,500 --> 00:01:21,000
+document's readability score for OCR quality.
+ 
+00:01:22,500 --> 00:01:24,500
+Stage two, extraction. Every document
+ 
+00:01:24,500 --> 00:01:27,000
+flows through six automated steps.
+ 
+00:01:28,000 --> 00:01:31,000
+OCR converts it to structured text. NLP
+ 
+00:01:31,000 --> 00:01:33,500
+identifies structure. Classification
+ 
+00:01:33,500 --> 00:01:36,000
+determines document type and status.
+ 
+00:01:36,500 --> 00:01:39,500
+The large language model then extracts
+ 
+00:01:39,500 --> 00:01:42,500
+every material field, a clause, a claim
+ 
+00:01:42,500 --> 00:01:45,500
+line, an invoice item, or a regulatory data point.
+ 
+00:01:46,500 --> 00:01:49,000
+Stage three, validation against
+ 
+00:01:49,000 --> 00:01:51,500
+enterprise standards. Each value is
+ 
+00:01:51,500 --> 00:01:54,500
+checked against your playbook, policies,
+ 
+00:01:54,500 --> 00:01:57,000
+master data, and business rules.
+ 
+00:01:58,000 --> 00:02:00,500
+A field-level confidence score and final
+ 
+00:02:00,500 --> 00:02:03,500
+document score determine whether it clears
+ 
+00:02:03,500 --> 00:02:05,500
+automatically or routes for review.
+ 
+00:02:07,000 --> 00:02:09,000
+Stage four, human-in-the-loop review.
+ 
+00:02:10,000 --> 00:02:12,500
+The Workbench surfaces only the fields
+ 
+00:02:12,500 --> 00:02:15,000
+that fell below threshold, alongside the
+ 
+00:02:15,000 --> 00:02:17,500
+exact source text. Analysts confirm,
+ 
+00:02:17,500 --> 00:02:20,500
+override, or reject, and every decision
+ 
+00:02:20,500 --> 00:02:23,000
+feeds back into the model. Accuracy
+ 
+00:02:23,000 --> 00:02:24,500
+compounds over time.
+ 
+00:02:25,500 --> 00:02:28,500
+The pipeline refreshes every four seconds.
+ 
+00:02:30,000 --> 00:02:32,500
+This same pipeline powers use cases
+ 
+00:02:32,500 --> 00:02:35,500
+across every industry. Let us walk through
+ 
+00:02:35,500 --> 00:02:37,500
+one in depth, capital markets.
+ 
+00:02:39,000 --> 00:02:41,500
+Capital Markets teams process thousands
+ 
+00:02:41,500 --> 00:02:44,500
+of ISDA master agreements, credit support
+ 
+00:02:44,500 --> 00:02:47,500
+annexes, trade confirmations, and KYC
+ 
+00:02:47,500 --> 00:02:50,500
+bundles every year, each requiring precise
+ 
+00:02:50,500 --> 00:02:53,000
+extraction of elections and risk parameters.
+ 
+00:02:54,000 --> 00:02:56,500
+The ISDA module has four tabs, Upload,
+ 
+00:02:56,500 --> 00:02:59,000
+Extraction, Review, and Deviations.
+ 
+00:03:00,500 --> 00:03:03,000
+On Extraction, elections from the schedule
+ 
+00:03:03,000 --> 00:03:06,000
+are grouped by Category, Termination, Tax,
+ 
+00:03:06,000 --> 00:03:08,500
+and Miscellaneous, each showing extracted
+ 
+00:03:08,500 --> 00:03:11,500
+value, source text, location, and confidence score.
+ 
+00:03:13,000 --> 00:03:15,500
+The Review Workbench routes low-confidence
+ 
+00:03:15,500 --> 00:03:18,000
+fields to analysts beside the exact
+ 
+00:03:18,000 --> 00:03:20,500
+source clause, human attention only
+ 
+00:03:20,500 --> 00:03:21,500
+where it is needed.
+ 
+00:03:23,000 --> 00:03:25,500
+The Deviations tab compares every election
+ 
+00:03:25,500 --> 00:03:28,000
+against your firm's standard positions,
+ 
+00:03:28,000 --> 00:03:30,500
+showing what agrees, what falls within
+ 
+00:03:30,500 --> 00:03:33,000
+tolerance, and what needs escalation,
+ 
+00:03:33,000 --> 00:03:36,000
+with approval workflows for legal, treasury,
+ 
+00:03:36,000 --> 00:03:39,000
+and credit risk. Export the full report as CSV.
+ 
+00:03:40,500 --> 00:03:42,500
+That is the full end-to-end workflow,
+ 
+00:03:42,500 --> 00:03:45,500
+ingestion, extraction, validation, and
+ 
+00:03:45,500 --> 00:03:47,000
+review, where it matters.
+ 
+00:03:48,000 --> 00:03:50,500
+One pipeline, every industry, purpose-built
+ 
+00:03:50,500 --> 00:03:52,500
+modules for the documents that matter most.
+ 
+00:03:53,500 --> 00:03:56,000
+Faster processing, higher accuracy,
+ 
+00:03:56,000 --> 00:03:57,500
+complete auditability.
+ 
+00:03:58,500 --> 00:04:01,500
+This is ZenLabs AI Foundry. Intelligent
+ 
+00:04:01,500 --> 00:04:04,000
+Automation for Enterprise Operations.

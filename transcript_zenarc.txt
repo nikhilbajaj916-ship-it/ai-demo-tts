@@ -1,0 +1,20 @@
+00:00:00 --> 00:00:13
+Welcome to ZenArc — Banking AI Compliance. On this dashboard: total analyses run, risk distribution, critical flags, and the live agent activity feed — all driven by a four-agent AI pipeline.
+
+00:00:13 --> 00:00:26
+ZenArc ships with five pre-built regulatory scenarios: FinCEN AML, KYC, Basel three Capital, CFPB Privacy, and SEC Cyber — each pre-configured with regulation ID, impact level, and compliance deadline.
+
+00:00:26 --> 00:00:38
+ZenArc fires four agents in sequence — Regulatory Analyst reads the rule, Policy Expert finds the gap, Compliance Auditor classifies control failures, Risk Assessor scores and prioritises remediation.
+
+00:00:38 --> 00:00:51
+I select the AML scenario — FinCEN just cut monitoring thresholds from ten thousand to five thousand dollars. Describe the compliance gap, Run analyze, and the agent pipeline runs immediately.
+
+00:00:51 --> 00:01:15
+Results land in AI Results. Risk score: 10 out of 100 — calculated by the Risk Assessor using regulatory severity, number of control gaps, and deadline proximity. Scroll down — Regulatory Analyst findings, Policy Expert gap analysis, Compliance Auditor classifications, Risk Assessor remediation steps, and a board-ready executive report ready for immediate use. One click to download.
+
+00:01:15 --> 00:01:39
+Need a quarterly compliance pack? Click Reports. Select scenarios — AML, KYC, Capital, Privacy, Cyber. Set the reporting period and hit Generate. ZenArc consolidates four agents' outputs across all five domains into one structured executive report — formatted, cross-referenced, ready for board submission. The previous quarterly pack took three analysts two weeks. This takes under two minutes.
+
+00:01:39 --> 00:01:45
+ZenArc. Four AI agents. Five regulatory domains. Board-ready outputs in 60 seconds.

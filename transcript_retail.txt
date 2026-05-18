@@ -1,0 +1,32 @@
+00:00:00 --> 00:00:20
+Welcome to ZenLabs — an AI-native digital banking onboarding platform. On this dashboard, we see live metrics: sessions started today, completion rate, and straight-through processing rate — the percentage of applications approved with zero human intervention — and the compliance review queue.
+
+00:00:20 --> 00:00:40
+Every metric here is driven by a pipeline of specialised AI agents: a triage agent, a form automation agent, a KYC screener, an AML agent, a credit bureau agent, a tax compliance agent, and an account creation agent — all orchestrated automatically.
+
+00:00:40 --> 00:00:50
+These metrics update in real time — every application, every risk flag, every compliance decision visible from this single dashboard.
+
+00:00:50 --> 00:00:55
+We select Retail Banking — the highest-volume journey for any bank.
+
+00:00:55 --> 00:01:07
+The customer's first action is uploading their government-issued ID — a Social Security Card. Watch the centre panel as the Document Intelligence Agent begins reading the document.
+
+00:01:07 --> 00:01:19
+Notice the three synchronised panels: agent activity on the left, the application form in the centre, and the AI assistant on the right — all working in parallel.
+
+00:01:19 --> 00:01:29
+In seconds, the Document Intelligence Agent extracts the customer's name, SSN, and issue date — auto-filling the form. Amber highlights mark every OCR-filled field.
+
+00:01:29 --> 00:01:49
+Once data is collected, the KYC and AML agents run automatically — checking OFAC sanctions, PEP lists, and adverse media. Clean applications proceed automatically. Flagged cases surface in the Compliance Queue for manual review, where a compliance officer approves or rejects the application based on risk level.
+
+00:01:49 --> 00:03:04
+Through a single chat reply, five fields populate simultaneously — employer name, income, industry, email, and phone. The step-by-step view covers four structured steps: identity, contact, employment, and tax. Each step carries compliance tooltips explaining why the disclosure is required under BSA and FinCEN rules. Step Four auto-generates the W-9 certification, detects US citizenship from the SSN scan, and flags FATCA status automatically. The customer selects income type — salaried — and confirms their employment details. A credit bureau check is initiated; the customer provides explicit consent, and the Credit Bureau Agent runs the query in the background — returning a credit score within seconds. With all checks cleared, the Account Creation Agent assigns a ten-digit checking account number, ABA routing number, and Visa debit card number — all displayed instantly in the chat. The customer sends twenty-five dollars via Zelle to fund the account. The moment the transfer confirms, the account status moves from pending to active — a fully functional US checking account, opened without a branch visit, without paperwork, and without manual intervention.
+
+00:03:04 --> 00:03:17
+For institutions, batch onboarding is fully supported. Upload a CSV or JSON file with multiple applicants, and the pipeline processes all of them in parallel — same compliance, same agents, at scale.
+
+00:03:17 --> 00:03:30
+Every agent decision is logged in the immutable audit trail — timestamped and filterable. The alert bell surfaces real-time compliance flags, giving your team instant visibility without opening each application individually.
