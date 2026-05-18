@@ -1,3 +1,4 @@
+seg 1
 On this screen, we’re looking at the Analytics Dashboard of the PayFlow Orchestrator platform, which is an AI-powered payment routing and optimization system.
 
 The dashboard gives a quick operational overview of payment orchestration performance. At the top, we can see key metrics including total orchestrations at 2,847, an average speed score of 87.3, rail efficiency at 94.2%, and cost optimization savings of about $12.4K.
@@ -6,6 +7,8 @@ In the center section, the Payment Rails Usage chart shows how transactions are 
 
 On the right, the Regional Distribution panel breaks down transaction activity geographically, with the US handling the highest volume, followed by the UK, South Asia, and Europe.
 
+
+seg 2
 The left navigation menu provides access to orchestration controls, analytics, agent status, activity logs, and system settings, while the system health indicator confirms that all systems are operational.”On this screen, we’re looking at the Analytics Dashboard of the PayFlow Orchestrator platform, which is an AI-powered payment routing and optimization system.
 
 The dashboard gives a quick operational overview of payment orchestration performance. At the top, we can see key metrics including total orchestrations at 2,847, an average speed score of 87.3, rail efficiency at 94.2%, and cost optimization savings of about $12.4K.
@@ -37,4 +40,11 @@ Next is the Optimizer Agent, which handles multi-objective rail selection and sc
 The third component is the Context Collector Agent, focused on payment context enrichment and analysis, also operating with high uptime and healthy status.
 
 At the bottom, the Agent Workflow Pipeline visually represents how data flows through the orchestration process — starting from the Context Collector, moving into the Policy Reasoner for compliance checks, and finally reaching the Optimizer for intelligent payment rail selection.”
- 
+
+---
+updated seg 1 (10 sec)
+The Analytics Dashboard shows a speed score of eighty-seven, rail efficiency at ninety-four percent, and twelve thousand in cost savings. SWIFT GPI leads at forty-five percent of all transactions.
+
+---
+updated seg 2 (10 sec)
+The Agent Status page shows three active agents, Policy Reasoner, Optimizer, and Context Collector, all running at ninety-nine point eight percent system health.

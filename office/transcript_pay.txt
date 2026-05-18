@@ -1,0 +1,20 @@
+00:00:00
+Every day, financial institutions move trillions of dollars across SWIFT, ACH, RTGS, and SEPA. Treasury teams rely on spreadsheets and static rules to route payments. That's slow, inconsistent, and costly. Choosing the wrong rail wastes thousands of dollars per transaction.
+
+00:00:18
+Meet the ZenLabs Payment Orchestration Platform, an agentic AI system that scores all payment rails, applies compliance rules, and selects the optimal route automatically. Supporting US, UK, South Africa, and Europe, running live on Azure Container Apps.
+
+00:00:35
+Let's walk through a real payment, fifty thousand dollars, US to UK corridor. When we hit Orchestrate Payment, four AI agents activate. First, Analyze payment parameters, validates the request. Second, Evaluate Payment, fetches eligible rails. Third, Select optimal score, picks the highest composite score. Fourth, Execute payment, submits the payment and returns a transaction ID. Entire workflow completes in under few seconds.
+
+00:01:03
+ACH wins at eighty point nine, cost-optimized for this amount and corridor. We save fourteen dollars fifty cents compared to Wire Transfer. Every decision step is logged with session ID and contextual data, feeding into Azure Monitor for full production observability.
+
+00:01:21
+The Analytics Dashboard shows total orchestrations at 2,847, average speed score of eighty-seven point three, rail efficiency at ninety-four point two percent, and twelve thousand dollars in cost optimizations. SWIFT GPI leads at forty-five percent of all transactions.
+
+00:01:40
+The Agent Status page shows three active agents, Policy Reasoner, Optimizer, and Context Collector, all running at ninety-nine point eight percent system health.
+
+00:01:51
+What you've seen is AI-driven payment orchestration running in production, making better routing decisions than any static rule book in under few seconds. This is working today.

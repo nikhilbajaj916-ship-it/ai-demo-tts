@@ -1,0 +1,23 @@
+---
+Opening — The Problem
+Every day, financial institutions move trillions of dollars across SWIFT, ACH, RTGS, and SEPA. Treasury teams rely on spreadsheets and static rules to route payments. That's slow, inconsistent, and costly. Choosing the wrong rail wastes thousands of dollars per transaction.
+
+---
+The Solution — Payment Orchestrator
+Meet the ZenLabs Payment Orchestration Platform, an agentic AI system that analyzes every payment in milliseconds, scores all available rails, applies compliance rules, and selects the optimal route automatically. We support four regions, US, UK, South Africa, and Europe. Deployed on Azure Container Apps, handling real transactions in production.
+
+---
+Live Orchestration Workflow
+Let's walk through a real payment, fifty thousand dollars, US to UK corridor. When we hit Orchestrate Payment, four AI agents activate. First, Analyze, validates the request. Second, Score Rails, fetches eligible rails. Third, Select, picks the highest composite score. Fourth, Execute, submits the payment and returns a transaction ID. Entire workflow completes in under five hundred milliseconds.
+
+---
+Result — ACH Wins
+ACH wins at eighty point nine, cost-optimized for this amount and corridor. We save fourteen dollars fifty cents compared to Wire Transfer. Every decision step is logged with session ID and contextual data, feeding into Azure Monitor for full production observability.
+
+---
+Agent Intelligence and Technology
+Under the hood, this is a LangGraph StateGraph, a directed acyclic graph of AI agents. The scoring formula weights cost at thirty percent, speed at forty percent, and reliability at thirty percent. Built on FastAPI, deployed on Azure Container Apps with zero-infrastructure management and auto-scaling.
+
+---
+Closing — Call to Action
+What you've seen is AI-driven payment orchestration running in production, making better routing decisions than any static rule book in under five hundred milliseconds. This is working today. The question is how fast you want to get there. Let's talk.
