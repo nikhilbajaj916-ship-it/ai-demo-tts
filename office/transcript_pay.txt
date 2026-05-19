@@ -1,20 +1,23 @@
 00:00:00
-Every day, financial institutions move trillions of dollars across SWIFT, ACH, RTGS, and SEPA. Treasury teams rely on spreadsheets and static rules to route payments. That's slow, inconsistent, and costly. Choosing the wrong rail wastes thousands of dollars per transaction.
+Every day, financial institutions move trillions of dollars across SWIFT, A C H, RTGS, and SEPA. Treasury teams rely on spreadsheets and static rules to route payments. That's slow, inconsistent, and costly. Choosing the wrong rail wastes thousands of dollars per transaction.
 
 00:00:18
-Meet the ZenLabs Payment Orchestration Platform, an agentic AI system that scores all payment rails, applies compliance rules, and selects the optimal route automatically. Supporting US, UK, South Africa, and Europe, running live on Azure Container Apps.
+Meet the ZenLabs Payment Orchestration Platform, an agentic AI system that scores all payment rails, applies compliance rules, and selects the optimal route automatically. Supporting US, UK, South Africa, and Europe.
 
-00:00:35
-Let's walk through a real payment, fifty thousand dollars, US to UK corridor. When we hit Orchestrate Payment, four AI agents activate. First, Analyze payment parameters, validates the request. Second, Evaluate Payment, fetches eligible rails. Third, Select optimal score, picks the highest composite score. Fourth, Execute payment, submits the payment and returns a transaction ID. Entire workflow completes in under few seconds.
+00:00:33
+Let's run a live payment. We set up a fifty-thousand-dollar transfer on the US to UK corridor and hit Orchestrate. Four AI agents activate instantly — Analyze validates the request, Evaluate fetches all eligible rails, Select picks the highest-scoring option, and Execute submits the transaction and returns a confirmation ID. The user gets full visibility into transaction details and processing fees in real time. The entire workflow completes in seconds.
 
 00:01:03
-ACH wins at eighty point nine, cost-optimized for this amount and corridor. We save fourteen dollars fifty cents compared to Wire Transfer. Every decision step is logged with session ID and contextual data, feeding into Azure Monitor for full production observability.
+The AI recommendation engine delivers transparent decision-making — comparing every rail across cost, speed, and reliability with a detailed score breakdown. Clients can see exactly why a rail was selected, along with estimated savings on every transaction.
 
-00:01:21
-The Analytics Dashboard shows total orchestrations at 2,847, average speed score of eighty-seven point three, rail efficiency at ninety-four point two percent, and twelve thousand dollars in cost optimizations. SWIFT GPI leads at forty-five percent of all transactions.
+00:01:19
+ACH scores eighty-one points — the highest composite score for this corridor. That's a saving of fourteen dollars and fifty cents over Wire Transfer, with every decision logged for complete audit trail compliance
 
-00:01:40
+00:01:33
+The Analytics Dashboard gives a real-time view of platform performance. Total orchestrations stand at two thousand eight hundred and forty seven, with an average speed score of eighty-seven point three, rail efficiency at ninety-four point two percent, and twelve thousand four hundred dollars saved through cost optimizations. — showing exactly where volume flows and where savings are being generated.
+
+00:01:59
 The Agent Status page shows three active agents, Policy Reasoner, Optimizer, and Context Collector, all running at ninety-nine point eight percent system health.
 
-00:01:51
+00:02:10
 What you've seen is AI-driven payment orchestration running in production, making better routing decisions than any static rule book in under few seconds. This is working today.
