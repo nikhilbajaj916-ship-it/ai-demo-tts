@@ -1,0 +1,10 @@
+The Payment Rail Usage section shows how transaction traffic is distributed across different payment networks such as SWIFT GPI, Real-Time Payments (RTP), ACH Batch, and SEPA. It helps monitor which payment rails are most frequently used and provides insights into transaction routing patterns, operational efficiency, and regional payment preferences.
+ 
+The Regional Distribution section visualizes transaction activity across different regions such as the US, UK, SA, and EUR.The Regional Distribution section visualizes transaction activity across different regions such as the US, UK, SA, and EUR.
+ 
+Agent status 
+
+The Agent Status module monitors AI agents responsible for different stages of the payment orchestration workflow. The Context Collector Agent gathers and enriches transaction data, the Policy Reasoner Agent performs compliance and regulatory validation, and the Optimizer Agent selects the best payment rail based on cost, speed, and reliability analysis.
+
+The dashboard also tracks each agent’s uptime, health status, last activity check, and total tasks processed to ensure the entire orchestration system is operating efficiently
+ 
